@@ -6,14 +6,14 @@ class UserInterface {open
 } {
   Function {make_window()} {open
   } {
-    Fl_Window win {open selected
-      label {Main View}
-      xywh {138 161 400 300} type Double visible
+    Fl_Window win {
+      label {Main View} open
+      xywh {657 234 400 300} type Double visible
     } {
       Fl_Box frame {
         xywh {0 0 400 200}
       }
-      Fl_Button but {
+      Fl_Button btn {
         label {Click me}
         xywh {160 200 80 40}
       }
